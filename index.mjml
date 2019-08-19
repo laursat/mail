@@ -85,6 +85,24 @@
 				padding-top: 0!important;
 			}
 		}
+		@media only screen and (max-width:580px) {
+			.footer-col {
+				width: 300px!important;
+			}
+			.footer-text div {
+				padding-bottom: 65px!important;
+			}
+			.footer {
+				padding-bottom: 10px!important;
+			}
+			.footer-contacts {
+				padding-top: 0!important;
+			}
+			.footer-contacts td {
+				padding-top: 0!important;
+				padding-bottom: 5px!important;
+			}
+		}
     </mj-style>
   </mj-head>
   <mj-body background-color="#eeeeee">
@@ -125,23 +143,23 @@
       <mj-column background-color="#f6bd27" css-class="text2-bg">
 		<mj-table cellpadding="0" cellspacing="0">
 		  <tr>
-			<td style="padding: 10px 5px 5px;"><img src="img/s1-icon1.png" width="36" height="21"/></td>
+			<td style="padding: 10px 5px 5px;"><img src="img/s1-icon1.png" width="36" height="32"/></td>
 			<td style="padding: 0 5px 0 0;"><p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0;     line-height: 1; font-size: 13px;">длительный срок эксплуатации (25-30 лет)</p></td>
 		  </tr>
 		  <tr>
-			<td style="padding: 5px;"><img src="img/s1-icon2.png" width="36" height="26"/></td>
+			<td style="padding: 5px;"><img src="img/s1-icon2.png" width="36" height="34"/></td>
 			<td style="padding: 0 5px 0 0;"><p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0;     line-height: 1; font-size: 13px;">широкий функционал (разные режимы отопления с дифференцированной мощностью)</p></td>
 		  </tr>
 		  <tr>
-			<td style="padding: 5px;"><img src="img/s1-icon3.png" width="36" height="25"/></td>
+			<td style="padding: 5px;"><img src="img/s1-icon3.png" width="36" height="33"/></td>
 			<td style="padding: 0 5px 0 0;"><p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0;     line-height: 1; font-size: 13px;">более низкое поглощение электроэнергии в сравнении с аналогичными моделями других производителей</p></td>
 		  </tr>
 		  <tr>
-			<td style="padding: 5px;"><img src="img/s1-icon4.png" width="36" height="25"/></td>
+			<td style="padding: 5px;"><img src="img/s1-icon4.png" width="36" height="33"/></td>
 			<td style="padding: 0 5px 0 0;"><p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0;     line-height: 1; font-size: 13px;">эстетичный внешний вид</p></td>
 		  </tr>
 		  <tr>
-			<td style="padding: 5px 5px 10px;"><img src="img/s1-icon5.png" width="36" height="22"/></td>
+			<td style="padding: 5px 5px 10px;"><img src="img/s1-icon5.png" width="36" height="33"/></td>
 			<td style="padding: 0 5px 0 0;"><p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0;     line-height: 1; font-size: 13px;">удобство в эксплуатации</p></td>
 		  </tr>
 		</mj-table>
@@ -402,25 +420,42 @@
 				<p style="margin-top:0; margin-bottom: 10px; margin-left:0; margin-right:0; padding:0;">Будьте с нами!</p>
 			</mj-text>
 			
-			<mj-text align="right" padding-bottom="0px">
+			<mj-text align="right" padding-bottom="0px" css-class="footer-text">
 			  <p style="color:#e12f15;font-size: 16px; font-weight: 600; line-height:1.2; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0;">ПОПРОБУЙТЕ УЛУЧШИТЬ СВОЮ<br />ЖИЗНЬ С ТЕПЛОМ ОТ “ЕCOS”</p>
 			  <p style="color:#ffffff;font-size: 20px; font-weight: 600; line-height:1.2; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">С НАМИ ВСЕГДА ТЕПЛО!!!</p>
 			</mj-text>
+
+			<mj-section align="left" text-align="left" padding-left="5px" css-class="footer">
+			<mj-column width="35%" css-class="footer-col">
+				<mj-table cellpadding="0" cellspacing="0" font-family="Calibri, Arial, sans-serif" padding-top="15px" css-class="footer-contacts">
+				<tr>
+					<td style="padding: 0px 5px 15px 0;"><img src="img/place.png" width="30" height="30"/></td>
+					<td style="padding-bottom: 15px; padding-right:5px;"><p style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;color:#ffffff; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 16px; font-weight:600; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">г. Кропивницкий<br />ул. Комарова, 30</p></td>
+				</tr>
+				<tr>
+					<td style="padding: 0px 5px 15px 0;"><img src="img/site.png" width="30" height="31"/></td>
+					<td style="padding-bottom: 15px;"><a href="https://ecos.ua" style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;color:#ffffff; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 16px; font-weight:600; text-decoration:none; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">ecos.ua</a></td>
+				</tr>
+				</mj-table>
+			</mj-column>
+
+			<mj-column width="45%" css-class="footer-col">
+				<mj-table cellpadding="0" cellspacing="0" font-family="Calibri, Arial, sans-serif" padding-top="15px" css-class="footer-contacts">
+					<tr>
+						<td style="padding: 0px 5px 15px 0;"><img src="img/phone.png" width="22" height="40"/></td>
+						<td style="padding-bottom: 15px; padding-right:5px;">
+						<a href="tel:380991963311" style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color:#ffffff; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 16px; font-weight:600; text-decoration:none; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">+38 099 196 33 11</a><br />
+						<a href="tel:380970903311" style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color:#ffffff; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 16px; font-weight:600; text-decoration:none; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">+38 097 090 33 11</a>
+						</td>
+					</tr>
+					<tr>
+						<td style="padding: 0px 5px 15px 0;"><img src="img/mail.png" width="32" height="10"/></td>
+						<td style="padding-bottom: 15px;"><a href="mailto:tm.ecos.ua@gmail.com" style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color:#ffffff; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 16px; font-weight:600; text-decoration:none; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">tm.ecos.ua@gmail.com</a></td>
+					</tr>
+				</mj-table>
+			</mj-column>
+			</mj-section>
 			
-			<mj-table cellpadding="0" cellspacing="0" font-family="Calibri, Arial, sans-serif" width="75%" padding-top="15px">
-			  <tr>
-				<td style="padding: 0px 5px 15px 0;"><img src="img/place.png" width="30" height="30"/></td>
-				<td style="padding-bottom: 15px; padding-right:5px;"><p style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;color:#ffffff; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 16px; font-weight:600; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">г. Кропивницкий<br />ул. Комарова, 30</p></td>
-				<td style="padding: 0px 5px 15px 0;"><img src="img/phone.png" width="22" height="40"/></td>
-				<td style="padding-bottom: 15px; padding-right:5px;"><p style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color:#ffffff; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 16px; font-weight:600; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">+38 099 196 33 11<br />+38 097 090 33 11</p></td>
-			  </tr>
-			  <tr>
-				<td style="padding: 0px 5px 15px 0;"><img src="img/site.png" width="30" height="31"/></td>
-				<td style="padding-bottom: 15px;"><p style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;color:#ffffff; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 16px; font-weight:600; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">ecos.ua</p></td>
-				<td style="padding: 0px 5px 15px 0;"><img src="img/mail.png" width="32" height="10"/></td>
-				<td style="padding-bottom: 15px;"><p style="font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif; color:#ffffff; margin-top:0; margin-bottom: 0; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 16px; font-weight:600; text-shadow: 0px 2px 2.76px rgba(29, 27, 27, 0.75);">tm.ecos.ua@gmail.com</p></td>
-			  </tr>
-			 </mj-table>
 			
 			
 		</mj-column>
