@@ -1,0 +1,101 @@
+<mj-section background-color="#fdfdfd" padding="20px 0px 0">
+		<mj-column>
+			 <mj-group>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="51px" padding="0" src="img/s2-icon1.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Высокое</span> качество продукции</p>
+				  </mj-text>
+				</mj-column>
+				<mj-column>
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon2.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Сертифицированная</span> продукция</p>
+				  </mj-text>
+				</mj-column>
+			  </mj-group>
+		</mj-column>
+		<mj-column>
+			 <mj-group>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon3.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Индивидуальный</span> подход к каждому клиенту</p>
+				  </mj-text>
+				</mj-column>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon4.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Широкий</span> ассортимент обогревателей</p>
+				  </mj-text>
+				</mj-column>
+			  </mj-group>
+		</mj-column>
+		<mj-column>
+			 <mj-group>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon5.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Лучшие цены</span> на поставляемые товары</p>
+				  </mj-text>
+				</mj-column>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon6.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Гибкая</span> система скидок</p>
+				  </mj-text>
+				</mj-column>
+			  </mj-group>
+		</mj-column>
+	</mj-section>
+	
+	<mj-section background-color="#fdfdfd" padding="0px 0px 15px">
+		<mj-column>
+			 <mj-group>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="51px" padding="0" src="img/s2-icon7.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Разнообразность</span> моделей</p>
+				  </mj-text>
+				</mj-column>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon8.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Удобная</span> форма оплаты товара (безналичный, наличный расчет)</p>
+				  </mj-text>
+				</mj-column>
+			  </mj-group>
+		</mj-column>
+		<mj-column>
+			 <mj-group>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon9.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Высокая</span> скорость сервиса</p>
+				  </mj-text>
+				</mj-column>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon10.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Оперативная</span> доставка по Украине</p>
+				  </mj-text>
+				</mj-column>
+			  </mj-group>
+		</mj-column>
+		<mj-column>
+			 <mj-group>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon11.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Контроль</span> качества и гарантия <span style="color:#e12f15">6 лет</span></p>
+				  </mj-text>
+				</mj-column>
+				<mj-column padding-left="2px" padding-right="2px">
+				  <mj-image width="50px" height="50px" padding="0" src="img/s2-icon12.png" />
+				  <mj-text align="center">
+					<p style="font-weight: 600; margin-top:0; margin-bottom: 5px; margin-left:0; margin-right:0; padding:0; line-height: 1; font-size: 11px;"><span style="color:#e12f15">Долгосрочное</span> и <span style="color:#e12f15">продуктивное</span> сотрудничество система скидок</p>
+				  </mj-text>
+				</mj-column>
+			  </mj-group>
+		</mj-column>
+	</mj-section>
